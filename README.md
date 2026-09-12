@@ -1,25 +1,87 @@
 <div align="center">
 
-  <img src="./assets/header.svg" width="100%" alt="Header"/>
+  <!-- HEADER -->
+  <img
+    src="./assets/header.svg"
+    width="100%"
+    alt="Nicollas Meneses"
+  />
 
   <br>
 
-  <img src="./assets/stats.svg" width="100%" alt="GitHub Stats"/>
+  <!-- GITHUB STATS -->
+  <img
+    src="./assets/stats.svg"
+    width="100%"
+    alt="GitHub Stats"
+  />
 
   <br>
 
-  <img src="./assets/technologies.svg" width="100%" alt="Technologies"/>
+  <!-- TECHNOLOGIES -->
+  <img
+    src="./assets/technologies.svg"
+    width="100%"
+    alt="Technologies"
+  />
 
   <br>
 
-  <img src="./assets/studying.svg" width="100%" alt="Currently Studying"/>
+  <!-- CURRENTLY STUDYING -->
+  <img
+    src="./assets/studying.svg"
+    width="100%"
+    alt="Currently Studying"
+  />
 
   <br>
 
-  <img src="./assets/projects.svg" width="100%" alt="Featured Projects"/>
+  <!-- FEATURED PROJECTS -->
+  <img
+    src="./assets/projects.svg"
+    width="100%"
+    alt="Featured Projects"
+  />
 
   <br>
 
-  <img src="./assets/contact.svg" width="100%" alt="Contact"/>
+  <!-- CONTACT SECTION -->
+  <img
+    src="./assets/contact.svg"
+    width="100%"
+    alt="Contact"
+  />
+
+  <br><br>
+
+  <!-- CLICKABLE SOCIAL BUTTONS -->
+
+  <a href="https://www.linkedin.com/in/nicollas-lopes-teles-de-meneses-952622393/?isSelfProfile=true">
+    <img
+      src="./assets/linkedin-button.svg"
+      width="31%"
+      alt="LinkedIn"
+    />
+  </a>
+
+  &nbsp;
+
+  <a href="https://github.com/nicollas-meneses">
+    <img
+      src="./assets/github-button.svg"
+      width="31%"
+      alt="GitHub"
+    />
+  </a>
+
+  &nbsp;
+
+  <a href="mailto:nicollas12lops@gmail.com">
+    <img
+      src="./assets/email-button.svg"
+      width="31%"
+      alt="Email"
+    />
+  </a>
 
 </div>
