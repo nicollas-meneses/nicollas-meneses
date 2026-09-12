@@ -1,0 +1,222 @@
+<svg width="1200" height="250" viewBox="0 0 1200 250"
+     xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#03080c"/>
+      <stop offset="100%" stop-color="#07191d"/>
+    </linearGradient>
+
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- FUNDO -->
+  <rect width="1200" height="250" fill="#050b0f"/>
+
+  <!-- BLOCO PRINCIPAL -->
+  <rect x="20" y="20" width="1160" height="210"
+        rx="16"
+        fill="url(#bg)"
+        stroke="#163940"
+        stroke-width="2"/>
+
+  <!-- ÍCONE LIVRO -->
+  <path d="M50 50
+           C58 45 68 45 76 50
+           L76 69
+           C68 64 58 64 50 69 Z"
+        fill="none"
+        stroke="#19e6df"
+        stroke-width="2"/>
+
+  <path d="M76 50
+           C84 45 94 45 102 50
+           L102 69
+           C94 64 84 64 76 69 Z"
+        fill="none"
+        stroke="#19e6df"
+        stroke-width="2"/>
+
+  <!-- TÍTULO -->
+  <text x="120" y="67"
+        font-family="Arial, sans-serif"
+        font-size="22"
+        font-weight="700"
+        fill="#edf5f6">
+    Currently studying
+  </text>
+
+  <text x="915" y="66"
+        font-family="Consolas, monospace"
+        font-size="13"
+        fill="#7897b0">
+    // always in progress...
+  </text>
+
+  <line x1="48" y1="84" x2="1150" y2="84"
+        stroke="#15363d"/>
+
+  <!-- JAVA -->
+  <rect x="48" y="108" width="160" height="92"
+        rx="10"
+        fill="#071217"
+        stroke="#173b43"/>
+
+  <text x="128" y="148"
+        text-anchor="middle"
+        font-family="Arial"
+        font-size="24"
+        font-weight="700"
+        fill="#f28c28">
+    JAVA
+  </text>
+
+  <text x="128" y="178"
+        text-anchor="middle"
+        font-family="Consolas, monospace"
+        font-size="12"
+        fill="#b8c7cc">
+    fundamentals
+  </text>
+
+
+  <!-- PYTHON -->
+  <rect x="230" y="108" width="160" height="92"
+        rx="10"
+        fill="#071217"
+        stroke="#173b43"/>
+
+  <text x="310" y="148"
+        text-anchor="middle"
+        font-family="Arial"
+        font-size="24"
+        font-weight="700"
+        fill="#3da5ff">
+    PYTHON
+  </text>
+
+  <text x="310" y="178"
+        text-anchor="middle"
+        font-family="Consolas, monospace"
+        font-size="12"
+        fill="#b8c7cc">
+    practice
+  </text>
+
+
+  <!-- REDES -->
+  <rect x="412" y="108" width="160" height="92"
+        rx="10"
+        fill="#071217"
+        stroke="#173b43"/>
+
+  <circle cx="492" cy="143" r="20"
+          fill="none"
+          stroke="#19e6df"
+          stroke-width="2"/>
+
+  <circle cx="492" cy="143" r="4"
+          fill="#19e6df"/>
+
+  <line x1="492" y1="123" x2="492" y2="113"
+        stroke="#19e6df"/>
+
+  <line x1="472" y1="143" x2="462" y2="143"
+        stroke="#19e6df"/>
+
+  <line x1="512" y1="143" x2="522" y2="143"
+        stroke="#19e6df"/>
+
+  <text x="492" y="182"
+        text-anchor="middle"
+        font-family="Arial"
+        font-size="13"
+        fill="#d9e4e7">
+    Computer Networks
+  </text>
+
+
+  <!-- SERVIDORES -->
+  <rect x="594" y="108" width="160" height="92"
+        rx="10"
+        fill="#071217"
+        stroke="#173b43"/>
+
+  <rect x="646" y="126" width="56" height="13"
+        rx="3"
+        fill="none"
+        stroke="#19e6df"
+        stroke-width="2"/>
+
+  <rect x="646" y="145" width="56" height="13"
+        rx="3"
+        fill="none"
+        stroke="#19e6df"
+        stroke-width="2"/>
+
+  <circle cx="692" cy="132" r="2.5" fill="#19e6df"/>
+  <circle cx="692" cy="151" r="2.5" fill="#19e6df"/>
+
+  <text x="674" y="182"
+        text-anchor="middle"
+        font-family="Arial"
+        font-size="13"
+        fill="#d9e4e7">
+    Servers
+  </text>
+
+
+  <!-- SOFTWARE DEVELOPMENT -->
+  <rect x="776" y="108" width="180" height="92"
+        rx="10"
+        fill="#071217"
+        stroke="#173b43"/>
+
+  <text x="866" y="148"
+        text-anchor="middle"
+        font-family="Consolas, monospace"
+        font-size="23"
+        font-weight="700"
+        fill="#19e6df">
+    &lt;/&gt;
+  </text>
+
+  <text x="866" y="178"
+        text-anchor="middle"
+        font-family="Arial"
+        font-size="12"
+        fill="#d9e4e7">
+    Software Development
+  </text>
+
+
+  <!-- COMPUTER SCIENCE -->
+  <rect x="978" y="108" width="176" height="92"
+        rx="10"
+        fill="#071217"
+        stroke="#173b43"/>
+
+  <text x="1066" y="148"
+        text-anchor="middle"
+        font-family="Arial"
+        font-size="22"
+        font-weight="700"
+        fill="#19e6df">
+    CS
+  </text>
+
+  <text x="1066" y="178"
+        text-anchor="middle"
+        font-family="Arial"
+        font-size="12"
+        fill="#d9e4e7">
+    Computer Science
+  </text>
+
+</svg>
